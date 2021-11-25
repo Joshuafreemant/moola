@@ -178,6 +178,7 @@ gap: 1em;
   color: #fff;
   background: -webkit-linear-gradient(315deg, #f86926 0%, #f1487b 74%);
   padding: 15px 30px;
+  width: auto;
 }
 .landing-div .first > .lead {
   color: #fff;
