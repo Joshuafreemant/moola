@@ -581,9 +581,7 @@ input[type="checkbox"] {
     top: 30px;
     transform: translateX(35%);
   }
-  .dropdown li:hover {
-    background-color: #4c9e9e;
-  }
+  
   .intelligent-div {
     flex-direction: column;
 }
