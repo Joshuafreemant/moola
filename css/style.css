@@ -177,7 +177,7 @@ li {
 .btn-link > .linkk {
   color: #fff;
   background: -webkit-linear-gradient(315deg, #f86926 0%, #f1487b 74%);
-  padding: 15px 35px;
+  padding: 15px 30px;
 }
 .landing-div .first > .lead {
   color: #fff;
@@ -552,5 +552,12 @@ input[type="checkbox"] {
   }
   .dropdown li:hover {
     background-color: #4c9e9e;
+  }
+
+  .btn-link {
+
+    width: 80%;
+  
+  
   }
 }
