@@ -170,7 +170,7 @@ li {
 .btn-link {
   margin-top: 2em;
   width: 67%;
-
+gap: 1em;
   display: flex;
   justify-content: space-between;
 }
@@ -554,10 +554,5 @@ input[type="checkbox"] {
     background-color: #4c9e9e;
   }
 
-  .btn-link {
  
-  width: 100%;
-padding: 8px;
-
-}
 }
