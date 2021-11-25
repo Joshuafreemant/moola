@@ -177,8 +177,8 @@ gap: 1em;
 .btn-link > .linkk {
   color: #fff;
   background: -webkit-linear-gradient(315deg, #f86926 0%, #f1487b 74%);
-  padding: 15px 30px;
-  width: auto;
+  padding: 15px;
+  width: 200px;
 }
 .landing-div .first > .lead {
   color: #fff;
