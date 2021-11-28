@@ -7,7 +7,9 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  background-color: rgb(0, 0, 15);
+  background-color: rgb(27, 29, 46);
+
+
 }
 h1,
 h2,
@@ -53,7 +55,7 @@ li {
 }
 /* LOGO */
 .logo > a {
-  font-size: 32px;
+  font-size: 25px;
   color: #fff;
   font-family: "Outfit", sans-serif !important;
 }
@@ -127,6 +129,27 @@ li {
   background-color: #fff;
   /* height: 60vh; */
 }
+
+.multiple {
+  background-color: rgb(250, 248, 248);
+
+  /* height: 60vh; */
+}
+.multiple .intelligent-cards > h2 {
+  font-size: 20px;
+
+}
+
+.multiple .intelligent-cards {
+  text-align: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
 .intelligent-div {
   display: flex;
   justify-content: center;
@@ -135,8 +158,8 @@ li {
 }
 .intelligent-cards {
   text-align: center;
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -144,7 +167,7 @@ li {
   gap: 1em;
 }
 .intelligent-cards > h2 {
-  color: rgb(0, 0, 15);
+  color: rgb(27, 29, 46);
   font-weight: bold;
 }
 .intelligent-cards > p {
@@ -198,9 +221,22 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
+.stra {
+  background-color: #fff ;
+}
+.stra .smart-cards h1 {
+  color: #000;
+  font-size: 20px;
+}
+.stra .smart-cards p {
+  color: #000;
+  line-height: 2;
+  font-size: 14px;
+  margin-bottom: 2em;
+}
 
 .smart {
-  background-color: rgb(0, 0, 15);
+  background-color: rgb(27, 29, 46);
 
   /* min-height: 60vh; */
 }
@@ -250,7 +286,7 @@ input[type="checkbox"] {
   /* border: 2px solid #ddd; */
   box-shadow: 0px 0px 10px 2px #eee;
   padding: 1.5em;
-  width: 25%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -262,10 +298,10 @@ input[type="checkbox"] {
 }
 .four-cards > h4 {
   /* border: 2px solid #ddd; */
-  color: rgb(0, 0, 15);
+  color: rgb(27, 29, 46);
 }
 .benn {
-  background-color: rgb(0, 0, 15);
+  background-color: rgb(27, 29, 46);
 }
 .benn > .cardss-div > h1 {
   color: #fff;
@@ -292,14 +328,14 @@ input[type="checkbox"] {
   box-shadow: none;
 }
 .cardss-div > h1 {
-  color: rgb(0, 0, 15);
+  color: rgb(27, 29, 46);
   font-weight: bold;
   text-align: center;
   font-size: 35px;
 }
 .cardss-div > p {
   text-align: center;
-  color: rgb(0, 0, 15);
+  color: rgb(27, 29, 46);
   font-weight: bold;
   line-height: 2;
 }
@@ -360,7 +396,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: calc(100% / 3);
+  width: 30%;
   min-height: 300px;
   padding: 1.5em;
   box-shadow: 0px 0px 5px 1px #ddd;
@@ -415,7 +451,7 @@ input[type="checkbox"] {
   width: 50%;
   margin: auto;
 }
-.benefit-below {
+/* .benefit-below {
   background-color: #fff;
   padding-bottom: 4em;
   padding-top: 4em;
@@ -423,7 +459,7 @@ input[type="checkbox"] {
 .benefit-below-div > p {
   margin-bottom: 2em;
   line-height: 2;
-}
+} */
 .benefit-img {
   width: 500px;
   margin: auto;
@@ -490,7 +526,7 @@ input[type="checkbox"] {
 }
 
 .portfolio > .mit-div {
-  color: rgb(0, 0, 15);
+  color: rgb(27, 29, 46);
   display: flex;
   gap: 1em;
   flex-direction: column;
@@ -504,7 +540,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: calc(100% / 3);
+  width: 30%;
   min-height: 300px;
   padding: 1.5em;
   box-shadow: 0px 0px 5px 1px #ddd;
@@ -554,7 +590,7 @@ input[type="checkbox"] {
     display: none;
     position: absolute;
    
-    background-color: rgb(0, 0, 15);
+    background-color: rgb(27, 29, 46);
     border-bottom: 1px solid rgba(221, 221, 221, 0.2);
 
     right: 0;
@@ -577,7 +613,7 @@ input[type="checkbox"] {
     display: block;
   }
   .dropdown {
-    left: -80%;
+    left: -30%;
     top: 30px;
     transform: translateX(35%);
   }
