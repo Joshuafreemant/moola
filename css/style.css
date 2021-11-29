@@ -176,8 +176,12 @@ li {
 .intelligent-cards > img {
   width: 150px;
 }
+.image{
+
+  width: 50%;
+}
 .image img {
-  width: 570px;
+  max-width: 100%;
 
   transform: scale(1.2);
 }
@@ -556,7 +560,9 @@ input[type="checkbox"] {
   width: 50%;
   margin: auto;
 }
-
+.advisory{
+  background-color: #fff;
+}
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .container {
